@@ -48,24 +48,24 @@ A comprehensive AI-powered emotion detection application with facial recognition
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone <repository-url>
    cd emotiai-detection-app
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
    # or
    yarn install
-   \`\`\`
+   ```
 
 3. **Run the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
    # or
    yarn dev
-   \`\`\`
+   ```
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
@@ -76,17 +76,17 @@ If you want to set up a real database:
 
 1. **Create a PostgreSQL database**
 2. **Run the database schema**
-   \`\`\`bash
+   ```bash
    psql -d your_database -f scripts/create-database-schema.sql
-   \`\`\`
+   ```
 3. **Update environment variables**
-   \`\`\`bash
+   ```bash
    DATABASE_URL=postgresql://username:password@localhost:5432/your_database
-   \`\`\`
+   ```
 
 ## Project Structure
 
-\`\`\`
+```
 ├── app/                    # Next.js App Router
 │   ├── api/               # API routes
 │   │   ├── emotion/       # Emotion detection endpoints
@@ -106,7 +106,8 @@ If you want to set up a real database:
 │   └── database.ts       # Database utilities
 └── scripts/              # Database and setup scripts
     └── create-database-schema.sql
-\`\`\`
+```
+
 
 ## API Endpoints
 
